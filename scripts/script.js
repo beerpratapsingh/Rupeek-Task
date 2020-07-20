@@ -1,5 +1,5 @@
 //jshint esversion:6
-const url = 'http://training.rupeek.com/getcustomerinfo';
+const url = 'https://training.rupeek.com/getcustomerinfo';
 const lodeMoreBtn = document.getElementById('lodeMoreBtn');
 let userId;
 let pageNo = 1;
@@ -12,7 +12,7 @@ let pageNo = 1;
 })();
 
 async function getTxnInfo(userId, pageNo){
-  const url = `http://training.rupeek.com/gettxninfo/${userId}/${pageNo}`;  
+  const url = `https://training.rupeek.com/gettxninfo/${userId}/${pageNo}`;  
   let txnContainer = document.getElementsByClassName('txn-container')[0];  
   let getTxn = await fetch(url)
     .then(res => res.json())
