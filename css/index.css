@@ -1,0 +1,15 @@
+p {
+  margin-bottom: .5rem;
+}
+
+#customerName {
+  text-transform: capitalize;
+}
+
+.card-block {
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.sub-date {
+  color: rgb(167, 167, 167);
+}
